@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+}
+
+.wrap {
+  background-color: #f5f5dd;
+}
+
+.center {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main_img {
+  width: 960px;
+}
+
+h3 {
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 21px;
+  background: url(img/dish.png) no-repeat #99bb22;
+  padding-left: 51px;
+  background-position: 17pt 7pt;
+  margin-top: 3px;
+}
+
+/* header */
+
+header {
+  border-bottom: solid 2px #cccccc;
+}
+
+.header {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header img {
+  float: left;
+}
+
+header form {
+  float: right;
+}
+
+header p {
+  clear: both;
+  color: #664433;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 5px;
+}
+
+header li {
+  flex: 1;
+  text-align: center;
+  border-left: solid 2px #cccccc;
+}
+
+header li:first-child {
+  border-left: none;
+}
+
+header a {
+  text-decoration: none;
+  display: block;
+  color: #664433;
+}
+
+/* nav */
+nav {
+  width: 200px;
+  float: left;
+}
+
+nav h3 {
+  margin: 0;
+}
+
+.nav_dish {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+}
+
+.nav_purpose {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 5px 0;
+  padding: 0;
+}
+
+nav li {
+  padding: 8px 25px;
+  background: url(img/arrow.png) no-repeat;
+  background-position: 0pt 8pt;
+  border-bottom: dotted 1px #cccccc;
+}
+
+nav li:last-child {
+  border-bottom: none;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  color: #000000;
+}
+
+/* article */
+.clearbox {
+  clear: both;
+}
+
+.comment {
+  float: right;
+  width: 300px;
+  margin-right: 10px;
+}
+
+article {
+  width: 580px;
+  margin-left: 12px;
+}
+
+.article {
+  float: left;
+}
+
+article section {
+  background-color: #ffffff;
+  padding: 5px;
+  margin-bottom: 17px;
+  margin-top: 9px;
+}
+
+article a {
+  float: right;
+  background: url(img/arrow.png) no-repeat;
+  background-position: 5pt 3pt;
+  text-decoration: none;
+  color: #fc8833;
+  padding-left: 30px;
+}
+
+article p {
+  margin-top: 0;
+}
+
+.title {
+  color: #664433;
+}
+
+.indent {
+  text-indent: 1em;
+}
+
+/* 新着レシピ */
+article ul {
+  display: flex;
+  list-style: none;
+  padding-left: 25px;
+}
+
+article li {
+  flex: 1;
+  font-size: 7px;
+  text-align: left;
+}
+
+article li img {
+  display: block;
+}
+
+.title {
+  font-weight: bold;
+}
+
+/* 和食 */
+.wasyoku img {
+  float: left;
+  margin-left: 10px;
+}
+
+.wasyoku {
+  padding-bottom: 20px;
+}
+
+/* 簡単 */
+.easy img {
+  float: left;
+  margin-left: 10px
+}
+
+.easy {
+  padding-bottom: 20px;
+}
+
+/* aside */
+aside {
+  width: 154px;
+  margin-top: 9px;
+}
+
+.aside {
+  float: right;
+}
+
+/* footer */ 
+.footer {
+  clear: both;
+  background-color: #ffffff;
+  border-top: solid 2px #cccccc;
+}
+
+footer {
+  margin: 0 auto;
+  width: 960px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+}
+
+footer li {
+  flex: 1;
+  text-align: center;
+  border-left: solid 2px #cccccc;
+  margin-top: 8px;
+}
+
+footer li:first-child {
+  border-left: none;
+}
+
+footer p {
+  text-align: center;
+  color: #cccccc;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
